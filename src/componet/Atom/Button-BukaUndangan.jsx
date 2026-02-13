@@ -9,7 +9,7 @@ export default function BukaUndangan() {
         onClick={() => navigate("/undangan")}
         className="font-libre font-light text-white"
       >
-        Buka Undangan
+        Buka Undangan dong
       </button>
     </div>
   );
