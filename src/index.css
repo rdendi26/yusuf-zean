@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer utilities {
+  .font-greatvibes {
+    font-family: "Great Vibes", cursive;
+  }
+
+  .font-libre {
+    font-family: "Libre Baskerville", serif;
+  }
+
+  .bg-primary {
+    background-color: #d8b37f;
+  } 
+  .box-shadow1 {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+}
+
+@keyframes bounceBall {
+  0% {
+    transform: translateY(0);
+    animation-timing-function: ease-in;
+  }
+  50% {
+    transform: translateY(-10px);
+    animation-timing-function: ease-out;
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.bounce-ball {
+  animation: bounceBall 2s ease-in-out infinite;
+}
+
