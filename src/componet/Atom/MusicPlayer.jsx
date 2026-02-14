@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import { FaCirclePlay, FaCirclePause } from "react-icons/fa6";
 
 const MusicPlayer = () => {
   const audioRef = useRef(null);
@@ -35,9 +36,9 @@ const MusicPlayer = () => {
 
       <button
         onClick={toggleMusic}
-        className="fixed bottom-20 right-5 bg-amber-700 text-white p-4 rounded-full shadow-lg z-50"
+        className="fixed bottom-20 right-5 bg-slate-600 border-2 text-black p-4 rounded-full shadow-lg z-50"
       >
-        {isPlaying ? "⏸️" : "▶️"}
+        {isPlaying ? <FaCirclePause size={20} color="black"/> : <FaCirclePlay size={20} color="black"/>}
       </button>
     </>
   );

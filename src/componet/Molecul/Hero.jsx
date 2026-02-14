@@ -1,9 +1,8 @@
-
-
 const Hero = () => {
     return (
         <>
-            <section id="sampul" className=" w-full h-full flex justify-center items-center">
+            <section id="sampul" className=" w-full h-full flex justify-center items-center bg-[url('/Image/5.svg')] bg-cover bg-center">
+
                 
                 <div className="  flex flex-col items-center">
                     <div className="bg-[url('/Image/Foto-Pengantin-Untuk-Depan.png')] bg-cover w-80 h-96 mb-10 mr-10 bounce-ball"></div>

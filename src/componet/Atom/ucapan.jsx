@@ -70,7 +70,7 @@ useEffect(() => {
 
 
   return (
-    <section id="ucapan" className="max-w-md mx-auto p-4 bg-[#f8f6f1] rounded-xl">
+    <section id="ucapan" className="max-w-md mx-auto p-4 bg-[#f8f6f1] rounded-xl bg-[url('/Image/5.svg')] bg-cover bg-center">
       <div className="p-5">
         <h1 className="font-greatvibes text-3xl font-bold text-center pb-10">Berikan Ucapan</h1>
         <p className="font-thin font-libre text-[12px] text-center">Silahkan memberikan sedikit pesan dan ucapan kepada kami, barakallahu fikum.</p>

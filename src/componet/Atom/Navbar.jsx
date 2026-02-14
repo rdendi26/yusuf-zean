@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { FaHouse, FaHeart, FaCalendarDays, FaComment  } from "react-icons/fa6";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -23,10 +24,10 @@ const Navbar = () => {
   }, []);
 
   const menu = [
-    { id: "sampul", label: "Sampul", icon: "💍" },
-    { id: "mempelai", label: "Mempelai", icon: "🎉" },
-    { id: "acara", label: "Acara", icon: "📍" },
-    { id: "ucapan", label: "Ucapan", icon: "💌" },
+    { id: "sampul", label: "Sampul", icon: <FaHouse size={20}/>  },
+    { id: "mempelai", label: "Mempelai", icon: <FaHeart size={20}/> },
+    { id: "acara", label: "Acara", icon: <FaCalendarDays size={20}/> },
+    { id: "ucapan", label: "Ucapan", icon: <FaComment size={20}/> },
   ];
 
   return (
