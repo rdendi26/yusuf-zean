@@ -1,17 +1,19 @@
 const VideoSection = () => {
-    return (
-        <div className="relative w-[320px] aspect-9/16 overflow-hidden rounded-2xl shadow-xl">
-  <video
-    src="../videos/prewedding.MP4"
-    autoPlay
-    loop
-    muted
-    playsInline
-    className="w-full h-full object-cover pointer-events-none"
-  />
-</div>
-
-    )
-}
+  return (
+    <section className="flex justify-center items-center min-h-screen bg-white">
+      <div className="w-[320px] aspect-[9/16]">
+        <video
+          src="/video/prewedding.MP4"
+          autoPlay
+          loop
+          muted
+          playsInline
+          preload="auto"
+          className="w-full h-full object-cover"
+        />
+      </div>
+    </section>
+  );
+};
 
 export default VideoSection;
