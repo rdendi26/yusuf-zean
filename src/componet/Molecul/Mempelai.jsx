@@ -2,7 +2,7 @@
 const Mempelai = () => {
     return (
     <>
-        <section id="mempelai" className=" w-full h-full bg-[url('/Image/7.svg')] bg-cover bg-center ">
+        <section id="mempelai" className=" w-full h-full bg-[url('/Image/bg1.svg')] bg-cover bg-center ">
             <div >
                 <div>
                     <h1 className="font-greatvibe font-bold text-xl text-center p-5">بِسْمِ اللّهِ الرَّحْمَنِ الرَّحِيْمِ</h1>

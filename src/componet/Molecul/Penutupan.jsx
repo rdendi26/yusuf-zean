@@ -4,8 +4,8 @@
 const Penutupan = () => {
     return (
         <>
-        <section>
-            <div className="p-10 flex flex-col items-center gap-10 ">
+        <section className="bg-[url('/Image/bg1.svg')] bg-cover w-full h-full py-10">
+            <div className="p-10 flex flex-col items-center gap-10">
                 <h1 className="font-greatvibes text-2xl font-semibold text-center">اَلسَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ </h1>
                 <p className="font-libre font-semibold text-[12px] text-center">Merupakan suatu kehormatandan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan do'a restu kepada kami.</p>
                 <p className="font-libre font-semibold text-[12px] text-center">Atas perhatianya, kami mengucapkan Jazaakumullahu Khairan</p>

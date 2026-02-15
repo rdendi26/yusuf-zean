@@ -5,7 +5,7 @@ const Acara = () => {
     return (
 
         <>
-        <section id="acara" className=" w-full h-full py-20 bg-[url('/Image/3.svg')] bg-cover bg-center">  
+        <section id="acara" className=" w-full h-full py-20 bg-[url('/Image/bg1.svg')] bg-cover bg-center">  
         <h1 className="font-greatvibes font-bold text-3xl text-center">Menuju Hari Yang Dituju</h1>
         <Countdown/>
         <div>

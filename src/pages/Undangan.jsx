@@ -6,6 +6,7 @@ import Nasehat from "../componet/Molecul/Nasehat";
 import Adab from "../componet/Molecul/Adab";
 import Ucapan from "../componet/Molecul/Section-Ucapan";
 import Penutupan from "../componet/Molecul/Penutupan";
+import KadoDigital from "../componet/Molecul/KadoDigital";
 import Navbar from "../componet/Atom/Navbar";
 import MusicPlayer from "../componet/Atom/MusicPlayer";
 
@@ -20,7 +21,7 @@ import MusicPlayer from "../componet/Atom/MusicPlayer";
 export default function Undangan() {
   return (
     <>
-      <div className="bg-[url('/Image/bg2.png')] bg-cover pb-24">
+      <div className="bg-[url('/Image/7.png')] bg-cover">
         <VideoSection/>
         <Hero />
         <Mempelai />
@@ -29,6 +30,7 @@ export default function Undangan() {
         <Adab/>
         <Ucapan />
         <Penutupan/>
+        <KadoDigital/>
       </div>
       <MusicPlayer/>
       <Navbar />

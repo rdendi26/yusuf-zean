@@ -1,7 +1,7 @@
 const VideoSection = () => {
   return (
-    <section className="flex justify-center items-center min-h-screen bg-white">
-      <div className="w-[320px] aspect-[9/16]">
+    <section className="flex justify-center items-center min-h-screen bg-whiten bg-[url('/Image/bg1.svg')] bg-cover relative">
+      <div className="w-4/5 aspect-auto">
         <video
           src="/video/prewedding.MP4"
           autoPlay
