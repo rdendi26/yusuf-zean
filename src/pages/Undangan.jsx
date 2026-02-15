@@ -21,7 +21,7 @@ import MusicPlayer from "../componet/Atom/MusicPlayer";
 export default function Undangan() {
   return (
     <>
-      <div className="bg-[url('/Image/7.png')] bg-cover">
+      <div className="bg-[url('/Image/bg1.svg')] bg-cover">
         <VideoSection/>
         <Hero />
         <Mempelai />
