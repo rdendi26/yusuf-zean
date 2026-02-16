@@ -5,7 +5,7 @@ import { FaTshirt } from "react-icons/fa";
 
 export default function AdabSection() {
   return (
-    <section className="w-full py-16 bg-[#f8f6f2] text-center px-4 bg-[url('/Image/bg1.svg')] bg-cover  h-full">
+    <section className="w-full   text-center px-4 bg-[url('/Image/a1.svg')] bg-cover  h-screen pt-32">
       
       {/* Judul */}
       <h2 className="text-2xl md:text-3xl font-serif text-gray-800 mb-6">

@@ -2,6 +2,7 @@
 
 html {
   scroll-behavior: smooth;
+  background-color: #E9C688;
 }
 
 @layer utilities {

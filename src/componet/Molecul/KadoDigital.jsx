@@ -25,9 +25,9 @@ export default function KadoDigital() {
   };
 
   return (
-    <section id="kado" className="w-full py-24 bg-linier-to-b from-[#f8f5f0] to-[#fffaf5] text-center font-libre bg-[url('/Image/bg1.svg')] bg-cover  h-full">
+    <section id="kado" className="w-full py-32 bg-linier-to-b from-[#f8f5f0] to-[#fffaf5] text-center font-libre bg-[#E9C688] bg-[url('/Image/a1.svg')] bg-cover  h-full">
       
-      <h2 className="text-3xl md:text-4xl font-serif mb-4">
+      <h2 className="text-3xl md:text-4xl font-serif mb-4 mt-32">
         Kado Pernikahan
       </h2>
 

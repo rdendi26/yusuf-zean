@@ -3,7 +3,7 @@ import BukaUndangan from "../Atom/Button-BukaUndangan";
 const ImageFront = () => {
     return (
         <>
-                <div className="relative bg-[url('/Image/bg1.svg')] bg-cover">
+                <div className="relative bg-[url('/Image/b1.svg')] bg-cover">
                 <div className="w-full h-screen flex flex-col items-center">
                     <div
                     className="w-full  h-3/4 bg-cover mt-10 bounce-ball -translate-x-8"

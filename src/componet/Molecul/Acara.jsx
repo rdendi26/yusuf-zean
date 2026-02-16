@@ -5,8 +5,8 @@ const Acara = () => {
     return (
 
         <>
-        <section id="acara" className=" w-full h-full py-20 bg-[url('/Image/bg1.svg')] bg-cover bg-center">  
-        <h1 className="font-greatvibes font-bold text-3xl text-center">Menuju Hari Yang Dituju</h1>
+        <section id="acara" className=" w-full h-full py-20 bg-[url('/Image/a1.svg')] bg-cover bg-center py-32">  
+        <h1 className="font-greatvibes font-bold text-3xl mt-20 text-center">Menuju Hari Yang Dituju</h1>
         <Countdown/>
         <div>
             <p className="text-[12px] text-center mt-10 p-10 font-libre">Dengan Memohon Rahmat Dan Ridho Allah.Swt, Kami Mengundang Bapak/Ibu/Saudara/I Untuk menghadiri Acara Pernikahan kami pada :</p>

@@ -49,7 +49,7 @@ export default function Countdown() {
 
 function TimeBox({ label, value }) {
   return (
-    <div className="w-10 h-14 bg-primary p-2 text-white flex flex-col justify-center items-center rounded-xl mt-20">
+    <div className="w-10 h-14 bg-primary p-2 text-white flex flex-col justify-center items-center rounded-xl mt-10">
       <span className="text-xl font-bold">
         {String(value).padStart(2, "0")}
       </span>
